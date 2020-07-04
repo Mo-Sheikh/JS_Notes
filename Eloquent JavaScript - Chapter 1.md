@@ -1,9 +1,9 @@
-##Eloquent JavaScript
-##Third Edition
-##A modern introduction to programming
+## Eloquent JavaScript
+## Third Edition
+## A modern introduction to programming
 
 
-##Chapter 1 - Values, Types, and Operators
+## Chapter 1 - Values, Types, and Operators
 
 Data is the lifeblood of computers. Inside the Computer’s world, there is only data. You can read data, modify data and create new data. 
 
@@ -22,7 +22,7 @@ Thus, the binary representation of the 14 is as follows:
 
 0 0 0 0 1 1 1 0
 
-###<ins>Values<ins>
+### <ins>Values<ins>
 
 A modern computer has 30 billion bits in its volatile data storage (RAM) and a whole lot more in its non-volatile data storage (hard disk or equivalent).
 
@@ -32,7 +32,7 @@ To create a value we simply invoke its name. It’s worth knowing however that v
 
 As soon as you no longer need a value it is automatically “garbage collected” by the JavaScript runtime be it in the browser or Node, so you needn’t worry about it.
 
-###<ins>Numbers<ins>
+### <ins>Numbers<ins>
 
 Numbers in JavaScript are numeric values and are written as such. E.g. 14
 
@@ -51,7 +51,7 @@ let b =  Infinity
 
 NaN stands for “not a number” which is for errors and other things that don’t yield a result i.e. 0/0.
 
-###<ins>Strings<ins>
+### <ins>Strings<ins>
 
 Strings are used to represent text. They are written by enclosing their contents in quotes. E.g.
 
@@ -81,7 +81,7 @@ The following will output.
 This is the first line
 And this is the second
 
-###<ins>Unary Operators<ins>
+### <ins>Unary Operators<ins>
 
 Not all operators are symbols. Some are written as words, take “typeof” as an example. Unary operators can be defined as those that operate with only one value.
 
@@ -91,7 +91,7 @@ typeof “hello” – returns String
 
 The typeof operator is an example of a unary operator. It takes one value and returns the type of the value.
 
-###<ins>Binary Operators<ins>
+### <ins>Binary Operators<ins>
 
 Are operators that operate with two values. Common binary operators are &&, ||, !==, ==
 
@@ -103,7 +103,7 @@ e.g.
 
 -1; Unary
 
-###<ins>Comparison<ins>
+### <ins>Comparison<ins>
 
 Here is a way to produce a Boolean value.
 
@@ -137,7 +137,7 @@ Console.log(NaN == NaN) – False.
 This is because NaN is supposed to denote a nonsensical value or computation.
 
 
-###<ins>Logical Operators<ins>
+### <ins>Logical Operators<ins>
 
 JavaScript supports three logical operators
 -      “And” represented as (&&)
@@ -168,7 +168,7 @@ console.log(false ? 1 : 2); Returns 2
 
 The ternary operator is often referred to as a conditional operator. The value on the left of the question mark is evaluated and picks which of the two values will come out.
 
-###<ins>Empty Values<ins>
+### <ins>Empty Values<ins>
 
 The values Null and undefined are used to denote meaningless values. They are themselves values that carry no meaning.
 
