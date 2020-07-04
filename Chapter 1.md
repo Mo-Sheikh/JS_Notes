@@ -1,8 +1,3 @@
-## Eloquent JavaScript
-## Third Edition
-## A modern introduction to programming
-
-
 ## Chapter 1 - Values, Types, and Operators
 
 Data is the lifeblood of computers. Inside the Computer’s world, there is only data. You can read data, modify data and create new data. 
